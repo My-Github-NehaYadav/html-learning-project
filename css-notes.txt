@@ -1,0 +1,46 @@
+-------------css syntax-------------
+selector {
+  property: value;
+}
+
+-------------------
+body {
+  background-color: lightgray;
+}
+body poore page ko represent karta hai
+
+
+--------------
+Font Size
+h1 {
+  font-size: 40px;
+}
+px = pixels
+
+
+--------------
+Text Alignment
+h1 {
+  text-align: center;
+}
+Values:left,center,right can give...
+
+
+------------
+Border
+h1 {
+  border: 2px solid black;
+}
+
+
+-------------
+Padding=Content ke andar ki space.
+h1 {
+  padding: 20px;
+}
+
+------------------
+Margin=Element ke bahar ki space.
+h1 {
+  margin: 30px;
+}

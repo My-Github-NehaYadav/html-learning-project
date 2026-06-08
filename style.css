@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+body {
+  background-color: lightgray;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  width: 500px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+/* h1 {
+  color: red;
+  text-align: center;
+  font-size: 40px;
+  border: 2px solid black;
+  padding: 20px;
+  margin: 30px;
+} */
+h1 {
+  color: #2563eb;
+  margin-bottom: 15px;
+}
+
+
+
+/* border = solid, dashed, dotted; */
+
+
+p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* class syntax */
+.intro {
+  color: purple;
+  font-size: 24px;
+}
+
+.title {
+  color: blue;
+}
+
+.intro {
+  color: purple;
+  font-size: 24px;
+}
+
+
+/* border-radius = button ko gol krta */
+/* border = node ,default border ko remove krta */
+/* cersor kesa dikhana h  */
+.btn {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: red;
+}
+
+
+ul {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+li {
+  background-color: #2563eb;
+  color: white;
+  padding: 8px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+
+label {
+  text-align: center;
+  display: block;
+}
+
+.message-label {
+  text-align: center;
+  display: block;
+  margin-bottom: 10px;
+}
+
+
+input:focus,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+
+  border: 1px solid #ccc;
+  border-radius: 8px;
+
+  font-size: 16px;
+  outline: none;
+  border-color: #2563eb;
+}
