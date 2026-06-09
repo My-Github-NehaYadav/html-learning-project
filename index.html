@@ -10,39 +10,101 @@
 
 <body>
   <div class="card">
-    <img src="photo.jpg" alt="Profile" class="profile-img" />
-    <!-- This is heading section -->
-    <h1 class="title">Neha Yadav</h1>
+    <header>
+      <h1>Neha Portfolio</h1>
 
-    <p class="intro">Backend Developer | Node.js Developer</p>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
 
-    <h2>About Me</h2>
-    <p>I am a Backend Developer with experience in Node.js,
-      Express.js and MongoDB. Currently looking for new
-      opportunities and continuously improving my skills.</p>
+    <section class="hero" id="home">
+      <img src="photo.jpg" alt="Profile" class="profile-img">
+
+      <div class="hero-content">
+        <h1 class="title">Neha Yadav</h1>
+
+        <p class="intro">
+          Backend Developer | Node.js Developer
+        </p>
+
+        <button href="#contact" class="btn">Contact Me</button>
+        <button class="btn">Download Resume</button>
+      </div>
+    </section>
 
 
-    <h2>My Skills</h2>
-    <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-      <li>Node.js</li>
-      <li>Express.js</li>
-      <li>MongoDB</li>
-    </ul>
+    <section class="about" id="about">
+      <h2>About Me</h2>
 
-    <h2>Get In Touch</h2>
-    <form class="contact-form">
-      <input type="text" placeholder="Your Name">
+      <p>
+        I am a Backend Developer with experience in Node.js,
+        Express.js and MongoDB. Currently looking for new
+        opportunities and continuously improving my skills.
+      </p>
+    </section>
 
-      <input type="email" placeholder="Your Email">
 
-      <textarea rows="5" placeholder="Write your message..."></textarea>
+    <section id="skills">
+      <h2>My Skills</h2>
 
-      <button class="btn">Send Message</button>
+      <div class="skills-container">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">Node.js</div>
+        <div class="skill">Express.js</div>
+        <div class="skill">MongoDB</div>
+      </div>
+    </section>
 
-    </form>
+
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <div class="projects-container">
+        <div class="project">
+          <h3>ShopSphere</h3>
+          <p>
+            E-commerce backend project built using Node.js,
+            Express.js and MongoDB.
+          </p>
+        </div>
+
+        <div class="project">
+          <h3>Portfolio Website</h3>
+          <p>
+            Personal portfolio built using HTML and CSS.
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="contact">
+      <h2>Get In Touch</h2>
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name">
+
+        <input type="email" placeholder="Your Email">
+
+        <textarea rows="5" placeholder="Write your message..."></textarea>
+
+        <button class="btn">Send Message</button>
+
+      </form>
+    </section>
+    <footer>
+      <p>© 2026 Neha Yadav. All Rights Reserved.</p>
+      <div class="social-links">
+        <a href="#">GitHub</a>
+        <a href="#">LinkedIn</a>
+      </div>
+    </footer>
   </div>
 </body>
 

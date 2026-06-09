@@ -18,3 +18,14 @@ input = user se data lena
 type="text" = normal text likhne ke liye
 placeholder = box ke andar halka sa hint text
 textarea = Message likhne ke liye:
+
+
+
+website use-------------------
+header=
+section= website ko orgnize krne ke liye section jaise part me dalte h 
+Navbar=
+layout=
+Hero Section= visitor kholta h jo website pr dikhta phle
+display: flex → items ko row me laata hai.
+gap → items ke beech space.
